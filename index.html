@@ -68,11 +68,18 @@
             color: #d100d1;
         }
 
-        .pdf-container {
+        .pdf-container, .video-container {
             margin-top: 15px;
             border-radius: 10px;
             overflow: hidden;
             border: 1px solid #ddd;
+            background-color: #000;
+        }
+
+        video {
+            width: 100%;
+            display: block;
+            max-height: 450px;
         }
 
         footer {
@@ -88,12 +95,17 @@
             font-weight: bold;
             color: #d100d1;
         }
+        
+        footer img {
+            max-height: 40px;
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Bitácora Segunda y Tercera Unidad</h1>
+        <div class="name-banner">
             <span class="c1">D</span><span class="c2">a</span><span class="c3">n</span><span class="c4">i</span><span class="c5">e</span><span class="c6">l</span><span class="c7">a</span> 
             &nbsp;
             <span class="c7">L</span><span class="c6">u</span><span class="c5">t</span><span class="c4">h</span><span class="c3">e</span><span class="c2">r</span>
@@ -101,8 +113,9 @@
     </header>
 
     <main>
+        <!-- Semana 1: PDF -->
         <div class="semana">
-            <h3>Introducción Arduino</h3>
+            <h3>Semana 1: Introducción Arduino</h3>
             <p>
                 Análisis de la plataforma <b>Arduino</b>, componentes electrónicos y tipos de señales.
             </p>
@@ -111,15 +124,70 @@
             </div>
         </div>
 
+        <!-- Semana 2: Video -->
         <div class="semana">
-            <h3>Semana 2</h3>
-            <p>Contenido en desarrollo para la siguiente entrega.</p>
+            <h3>Semana 2: Título de la Práctica</h3>
+            <p>Descripción del proyecto o demostración realizada en la segunda semana.</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="semana2.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Semana 3: Video -->
+        <div class="semana">
+            <h3>Semana 3: Título de la Práctica</h3>
+            <p>Descripción del proyecto o demostración realizada en la tercera semana.</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="semana3.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Semana 4: Video -->
+        <div class="semana">
+            <h3>Semana 4: Título de la Práctica</h3>
+            <p>Descripción del proyecto o demostración realizada en la cuarta semana.</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="semana4.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Semana 5: Video -->
+        <div class="semana">
+            <h3>Semana 5: Título de la Práctica</h3>
+            <p>Descripción del proyecto o demostración realizada en la quinta semana.</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="semana5.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Semana 6: Video -->
+        <div class="semana">
+            <h3>Semana 6: Título de la Práctica</h3>
+            <p>Descripción del proyecto o demostración realizada en la sexta semana.</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="semana6.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
         </div>
     </main>
 
     <footer>
-        <span>@daniluther </span>
-        <img src="https://www.capouilliez.edu.gt/panel-alumnos/assets/img/brand/capouilliez.svg"
+        <span>@daniluther</span>
+        <img src="https://www.capouilliez.edu.gt/panel-alumnos/assets/img/brand/capouilliez.svg" alt="Logo Colegio">
     </footer>
 
 </body>
